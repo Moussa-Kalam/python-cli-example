@@ -44,9 +44,9 @@ Adding modules (Python files) is as easy as adding more files. But you can also 
 Using dependencies can be tricky, but you can use the well known `requirements.txt` file to keep track of the dependencies for your projects which is something that works with the `pip` installer tool. Here are some things to be aware of when working with dependencies:
 
 1. Create a `requirements.txt` file, optionally read it in for the `setup.py` file
-1. Use separate files for development and testing like `dev-requirements.txt` and `test-requirements.txt` when needed
+1. Use separate files for development and testing like `dev-requirements.txt` and `test-requirements.txt` when needed.
 1. Use `pip` to install dependencies and use `pip freeze` to _pin_ dependencies. Be aware of the caveats and positive aspects of pinning.
-1. Understand how relaxed dependencies can be instead of pinning
+1. Understand how relaxed dependencies can be instead of pinning.`
 
 ## Resources
 Explore additional content that you can use to learn more about the topics covered in this course.
